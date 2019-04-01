@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/Register.css">
+  <script type="text/javascript" src="./Javascript/Reg.js"></script>
+ </head>
+ <body>
+		<div class="container">
+			<form action="#" method="post" class="Form">
+				<p class="FirstName" id="Fname">
+					<label>FirstName</label><input  id="FirstName" class="FirstName" type="text" placeholder="Enter Username" name="uname">
+				</p>
+				
+				<p class="LastName">
+					<label>Lastname</label><input  id="LastName" class="LastName" type="text" placeholder="Enter Lastname" name="Lname">
+				</p>
+
+				<p class="MbNum">
+					<label>MobileNo</label><input  id="MbNum" class="MbNum" type="text" placeholder="Enter Mbnum" name="Mbnumber">
+				</p>
+
+				<p class="Address">
+					<label>Email_ID</label><input  id="emailID" class="Address" type="text" placeholder="Enter Address" name="add">
+				</p>
+				
+				<p>
+				<label>City:</label><select class="City" id="Select" onchange="SubmitObj.myFunction()">
+					City:<option value="Mumbai">Mumbai
+					<option value="Pune">Pune
+					<option value="Rabale">Rabale
+					<option value="Khar">Khar
+				</select>
+				</p>
+
+				<p class="username">
+					<label>GenUserID</label><input id="Username" class="Username" type="text" placeholder="Enter Username" name="Genus">
+				</p>
+				
+				<p class="Password">
+					<label>GenPassword</label><input id="Password" class="Password" type="password" placeholder="Enter Password" name="Pass">
+				</p>
+				
+				
+				<p class="btnC">
+					<!--<input type="submit" onclick="SubmitObj.Submit1()">
+					<button onclick="SubmitObj.Submit1()" class="btn">Register</button>
+					<!--<input type="checkbox" checked="checked" name="remember"> Remember me-->
+					<button onclick="return SubmitObj.Submit1()" class="btn">Register</button>
+				</p>
+		
+			</form>
+			
+			<!--<button onclick="return SubmitObj.Submit1()" class="btn">Register</button>
+	<div class="displaydiv">-->
+
+			<div id="display"></div>
+			<div id="display1"></div>
+			<div id="display2"></div>
+			<div id="display3"></div>
+			<div id="demo"></div>
+			<div id="display4"></div>
+			<div id="display5"></div>
+			
+	</div>
+	
+  
+ </body>
+</html>
